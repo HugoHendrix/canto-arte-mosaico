@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --fTema: #7FDBFF;
-    --fTema2: #0074D9;
+    --fTema: #733b56;
+    --fTema2: #ad5a82;
     --fTema3: #FFFFFF;
-    --fTema4: #DDDDDD;
-    --fTema5: #2ECC40;
+    --fTema4: #181818;
+    --fTema5: #8d8585;
 }
 
 /* Configurações gerais */
