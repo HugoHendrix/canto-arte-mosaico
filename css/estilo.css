@@ -46,3 +46,29 @@
 .rodape-link { transition: 600ms all;}
 .rodape-link::first-letter { text-transform: uppercase; }
 .rodape-link:hover { color: #ad5a82; }
+
+/* WHATSAPP RODAPE */
+.whatsAppRodape { position: fixed; bottom: 0; left: 0; width: 100%; background: #089c4c; color: #fff; text-align: center; padding: 12px 0; z-index: 9999; }
+.whatsAppRodape p { margin: 0; }
+.whatsAppRodape a { display: block; text-decoration: none; color: #fff; }
+.whatsAppRodape a:hover { color: #cecece; }
+.whatsAppRodape .fa-whatsapp { vertical-align: middle; width: 20px; height: auto; fill: #fff; }
+
+/* WHATSAPP BOTAO FIXO */
+.whatsBotaoRodape { width: 70px; background: #ad5a82; min-width: 50px; display: block; position: fixed;
+right: 20px; bottom: 50px; z-index: 999; border-radius: 50%; overflow: hidden; }
+.whatsBotaoRodape a {padding-bottom: 100%;display: block; animation: pulse 2s infinite;}
+.whatsBotaoRodape svg { width: 50%; fill: #fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);   }
+  
+  @keyframes pulse { 
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+  }
+  
