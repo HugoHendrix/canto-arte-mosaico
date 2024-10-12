@@ -48,7 +48,11 @@ function aplicarEmailLink(selector = '.emailLink') {
 aplicarEmailLink();
 
 // GERENCIANDO TITLE E ALT
-const brand = document.getElementById('brand');
-const brandName = brand.getAttribute('data-brand');
-brand.setAttribute('alt', brandName);
-brand.setAttribute('title', brandName);
+const brandName = "Canto Arte Mosaico | Mandalas, Vitrais e Arte em Vidro Exclusiva";
+const images = document.querySelectorAll('img[data-brand]');
+
+images.forEach(image => {
+    
+    image.setAttribute('alt', brandName);
+    image.setAttribute('title', brandName);
+});
