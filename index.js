@@ -47,3 +47,8 @@ function aplicarEmailLink(selector = '.emailLink') {
 
 aplicarEmailLink();
 
+// GERENCIANDO TITLE E ALT
+const brand = document.getElementById('brand');
+const brandName = brand.getAttribute('data-brand');
+brand.setAttribute('alt', brandName);
+brand.setAttribute('title', brandName);

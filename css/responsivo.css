@@ -1,3 +1,8 @@
+@media (max-width: 767px){
+    .menu-desktop { display: none; }
+    .menu-mobile { display: block; }
+
+}
 
 @media (max-width: 300px) {
     
