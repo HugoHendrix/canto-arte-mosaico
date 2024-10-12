@@ -27,7 +27,7 @@
 .produto-titulo { margin-bottom: 15px; font-size: 2.2rem; font-weight: 600;  }
 
 /* QUEM SOMOS */
-.quem-somos-container { padding: 10px; margin-bottom: 30px; background: rgba(255, 255, 255, 0.76); border-radius: 15px; backdrop-filter: blur(10px); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); padding: 20px; position: absolute; top: 20px; right: 10px; z-index: 10; width: 55%; }
+.quem-somos-container { padding: 10px; margin-bottom: 30px; background: rgba(255, 255, 255, 0.76); border-radius: 15px; backdrop-filter: blur(10px); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); padding: 20px; position: absolute; top: 20px; right: 10px; z-index: 10; width: 600px; }
 .row.position-relative { position: relative; }
 .quem-somos { margin-bottom: 30px; width: 100%; max-width: 800px; border-radius: 12px; }
 .quem-somos-descricao { margin-bottom: 30px; font-size: 1.8rem; font-weight: 300; line-height: 1.6; }
