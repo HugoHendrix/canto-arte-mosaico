@@ -1,6 +1,6 @@
 @media (max-width: 767px){
-    .menu-desktop { display: none; }
-    .menu-mobile { display: block; }
+    .menuDesktop { display: none; }
+    .menuMobileContainer { display: block; }
 
 }
 

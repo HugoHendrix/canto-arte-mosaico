@@ -18,36 +18,76 @@
   <link type="text/css" rel="stylesheet" href="css/responsivo.css">
 </head>
 <body>
-    <header class="container-fluid p-0 menu-desktop" id="inicio">
+    <div class="container w-100 p-0 menuDesktop">
         <div class="row">
             <div class="col-md-12">
                 <div class="header-container">
-                    <p id="telefone1"> <i class="fa-solid fa-phone mr-5 header-icone"></i> <a href="#"
-                            class="whatsappLink"></a></p>
+                    <strong>
+                        <p id="telefone1"> <i class="fa-solid fa-phone mr-5 header-icone"></i> <a href="#" target="_blank" class="whatsappLink link-neutro" data-mensagem="Estou interessado nos seus produtos."></a></p>
+                    </strong>
                     <p>Mosaicos para Decorar Seu Ambiente <a href="https://www.instagram.com/fer_paraboli/"
-                            target="_blank"> <i class="fa-brands fa-instagram header-icone"></i></a> </i> <a
-                            href="https://www.facebook.com/fer.paraboli"> <i
+                            target="_blank" class="link-neutro"> <i class="fa-brands fa-instagram header-icone"></i></a> </i> <a
+                            href="https://www.facebook.com/fer.paraboli" target="_blank" class="link-neutro"> <i
                                 class="fa-brands fa-facebook header-icone"></i></a></p>
                 </div>
-                <nav class="nav-container">
-                    <img src="img/logo.jpg" class="nav-logo" alt="Logo Canto Arte Mosaico">
-                    <ul class="nav-lista">
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#produtos">Produtos</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#galeria">Galeria</a></li>
-                        <a href="" target="_blank" class="whatsappLink botao">Fale comigo <i
-                                class="fa-brands fa-whatsapp ml-5"></i></a>
-                    </ul>
-                </nav>
+            </div>
+        </div>
+       
+    </div>
+    <header class="container w-100 menuDesktop" id="inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="menuFlex">
+                        <div>
+                            <a href="/index.html">
+                                <img src="img/logo.jpg" class="nav-logo" data-brand />
+                            </a>
+                        </div>
+                           <ul>
+                                <li><a href="#inicio">Início</a></li>
+                                <li><a href="#produtos">Produtos</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#galeria">Galeria</a></li>
+                                <a href="#" target="_blank" class="whatsappLink botao" data-mensagem="Estou interessado nos seus produtos.">Fale Conosco <i class="ml-5 fa-brands fa-whatsapp " aria-hidden="true"></i></a>
+                           </ul>
+                     </div>
+                </div>
             </div>
         </div>
     </header>
 
+    <div class="container w-100 p-5 menuMobileContainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 d-flex align-center justify-center">
+                    <a href="#">
+                        <img src="img/logo.jpg" class="nav-logo" data-brand>
+                    </a> 
+                </div>
+                    <div class="col-xs-6 d-flex justify-end align-center">
+                        <button class="mobile-menu-toggle"><img src="img/menu-mobile.svg"></button>
+                    <div class="mobile-menu">
+                        <a class="mobile-menu-close">➜</a>
+                        <div class="MobileMenuTitulo">
+                            <h3 class="text-center">Menu</h3>
+                        </div>
+                        <ul class="MenuMobileList">
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#produtos">Produtos</a></li>                                                
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#galeria">Galeria</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="container-fluid p-0">
         <div class="row">
             <div class="col-md-12">
-                <a href="#" class="whatsappLink"><img src="img/banner/banner-1.jpg" class="banner"
+                <a href="#" class="whatsappLink" data-mensagem="Olá, quero saber mais sobre os produtos"><img src="img/banner/banner-1.jpg" class="banner"
                         alt="Banner promocional Canto Arte Mosaico"></a>
             </div>
         </div>
@@ -151,6 +191,34 @@
     <div class="container-fluid container-bloco">
         <div class="row">
             <img src="img/banner-faixa.jpg" class="banner" alt="Banner promocional Canto Arte Mosaico">
+        </div>
+    </div>
+
+    <div class="container full" id="sobre">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-md-8">
+                    <div class="que-somos-img"><img src="img/quem-somos.jpg" class="quem-somos" data-brand></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="quem-somos-container">
+                        <h2 class="fs-32 fw-600">Sobre Fernando Paraboli</h2>
+                        <p class="quem-somos-descricao">Fernando Paraboli é um artesão apaixonado que encontrou no mosaico
+                            uma maneira única de expressar sua criatividade e sensibilidade artística. Com mais de uma
+                            década de experiência, ele se especializou em transformar pequenos pedaços de vidro em
+                            verdadeiras obras de arte, criando mandalas, vitrais, espelhos, vasos e muito mais. Cada peça é
+                            feita à mão, com precisão e atenção aos detalhes, resultando em criações exclusivas e
+                            personalizadas.</p>
+                        <p class="quem-somos-descricao">Fernando acredita que a arte tem o poder de transformar ambientes e
+                            trazer beleza e harmonia para a vida das pessoas. Seus trabalhos são inspirados pelas formas da
+                            natureza, pela geometria e pela espiritualidade, sempre buscando transmitir energia positiva e
+                            originalidade em cada obra. O mosaico, para ele, é mais do que uma técnica; é uma forma de
+                            contar histórias e despertar emoções.
+    
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -270,47 +338,19 @@
         </div>
     </section>
 
-    <div class="container full" id="sobre">
-        <div class="container">
-            <div class="row position-relative">
-                <div class="col-md-8">
-                    <div class="que-somos-img"><img src="img/quem-somos.jpg" class="quem-somos" data-brand></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="quem-somos-container">
-                        <h2 class="fs-32 fw-600">Sobre Fernando Paraboli</h2>
-                        <p class="quem-somos-descricao">Fernando Paraboli é um artesão apaixonado que encontrou no mosaico
-                            uma maneira única de expressar sua criatividade e sensibilidade artística. Com mais de uma
-                            década de experiência, ele se especializou em transformar pequenos pedaços de vidro em
-                            verdadeiras obras de arte, criando mandalas, vitrais, espelhos, vasos e muito mais. Cada peça é
-                            feita à mão, com precisão e atenção aos detalhes, resultando em criações exclusivas e
-                            personalizadas.</p>
-                        <p class="quem-somos-descricao">Fernando acredita que a arte tem o poder de transformar ambientes e
-                            trazer beleza e harmonia para a vida das pessoas. Seus trabalhos são inspirados pelas formas da
-                            natureza, pela geometria e pela espiritualidade, sempre buscando transmitir energia positiva e
-                            originalidade em cada obra. O mosaico, para ele, é mais do que uma técnica; é uma forma de
-                            contar histórias e despertar emoções.
-    
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <footer class="container-fluid rodape-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-8">
                     <div class="rodape-container container-bloco">
-                        <img src="img/logo-rodape.svg" class="rodape-logo" alt="Logo Canto Arte Mosaico">
-                        <p><a href="#" class="whatsappLink text-white"><i
+                        <a href="#inicio"><img src="img/logo-rodape.svg" class="rodape-logo" data-brand></a>
+                        <p><a a href="#" target="_blank" class="whatsappLink text-white rodape-link" data-mensagem="Estou interessado nos seus produtos."><i
                                     class="fa-solid fa-phone mr-5 rodape-icone"></i>(17) 99116-8475</a></p>
-                        <p><a href="mailto:fparaboli@gmail.com" class="text-white"><i
+                        <p><a href="mailto:fparaboli@gmail.com" class="text-white rodape-link"><i
                                     class="fa-solid fa-envelope mr-5 rodape-icone"></i> fparaboli@gmail.com</a></p>
                     </div>
                 </div>
-                <div class="col-md-2 text-white">
+                <div class="col-md-4 text-white">
                     <div class="rodape-container container-bloco">
                         <h3 class="rodape-titulo">Links Rápidos</h3>
                         <ul class="list-unstyled">
@@ -330,7 +370,7 @@
         </div>
     </footer>
 
-    <div class="container-fluid bg-theme2">
+    <div class="container-fluid bg-theme2 text-white">
         <div class="row">
             <div class="col-md-12 text-center pt-10">
                 <p>© 2024 - Canto Arte Mosaico - Todos os direitos reservados.</p>
@@ -339,8 +379,7 @@
     </div>
 
     <div class="whatsBotaoRodape">
-        <a href="" class="whatsappLink" rel="nofollow" target="_blank"
-            onclick="gtag('event', 'Clique no link', {'event_category': 'Clique no WhatsApp', 'event_label': 'Whatsapp'}); gtag_report_conversion();">
+        <a a href="#" target="_blank" class="whatsappLink" data-mensagem="Estou interessado nos seus produtos.">
             <svg fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308"
                 xml:space="preserve">
@@ -360,16 +399,11 @@
         </a>
     </div>
 
-    
-    
-
-
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="js/index.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/index.js"></script>
   <script>
       AOS.init();
   </script>

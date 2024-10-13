@@ -310,6 +310,20 @@ a:hover {
     text-decoration: none;
 }
 
+.link-neutro {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.link-neutro:hover,
+.link-neutro:focus,
+.link-neutro:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* Transições Suaves */
 .transition {
     transition: all 0.3s ease-in-out;
