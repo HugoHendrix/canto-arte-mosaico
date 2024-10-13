@@ -102,3 +102,25 @@ images.forEach(image => {
 const telefone = "(17) 99116-8475";
 const telefoneLink = document.querySelector('#telefone1 a'); // Seleciona a tag <a> dentro do <p>
 telefoneLink.textContent = telefone; // Insere o número dentro do link
+
+
+// Owl Carousel
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+});
