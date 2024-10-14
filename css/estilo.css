@@ -39,8 +39,8 @@
 .quem-somos-descricao { margin-bottom: 30px; font-size: 1.8rem; font-weight: 300; line-height: 1.6; }
 
 /* GALERIA */
-.galeria-container { width: 100%; max-width: 300px; }
-.galeria-img { margin-bottom: 30px; width: 100%; max-width: 300px; border-radius: 12px; }
+.galeria-container { margin-bottom: 30px; width: 100%; max-width: 300px; }
+.galeria-img { width: 100%; max-width: 300px; border-radius: 12px; }
 
 /* RODAPÉ */
 .rodape-bg { background-image: url("../img/rodape.jpg"); width: 100%; background-size: cover;}
