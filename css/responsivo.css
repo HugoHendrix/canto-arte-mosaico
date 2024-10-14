@@ -2,6 +2,9 @@
     .menuDesktop { display: none; }
     .menuMobileContainer { display: block; }
 
+    .produto-titulo { font-size: 1.8rem; }
+    .quem-somos-container { width: 300px; position: relative; }
+
 }
 
 @media (max-width: 300px) {

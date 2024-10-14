@@ -31,6 +31,27 @@ body {
     font-size: 1.6rem; /* 16px */
 }
 
+/* GERAL */
+.subtitulo { margin-bottom: 5px; font-size: 2.1rem; font-weight: 400; color: #8d8585; }
+.titulo { margin-bottom: 30px; font-size: 3.8rem; font-weight: 800; color: #181818; }
+.descricao { margin-bottom: 30px; font-size: 1.8rem; font-weight: 300; color: #8d8585; line-height: 1.6; }
+.botao { background-color: #733b56; color: #e7e7e7; padding: 8px 16px; border-radius: 12px; transition: 500ms all; }
+.botao:hover { background-color: #ad5a82; color: #fff; }
+.container-bloco { padding-block: 50px; }
+.borda-detalhe { border-top: 8px solid #733b56; }
+
+
+/* Quebras */
+.quebra   { clear:both; }
+.quebra10 { clear:both; height:10px; }
+.quebra15 { clear:both; height:15px; }
+.quebra20 { clear:both; height:20px; }
+.quebra30 { clear:both; height:30px; }
+.quebra50 { clear:both; height:50px; }
+.quebra70 { clear:both; height:70px; }
+.quebra80 { clear:both; height:80px; }
+.quebra100 { clear:both; height:100px; }
+
 /* Classes de Margem (margin) */
 .m-5    { margin: 5px; }
 .m-10   { margin: 10px; }
