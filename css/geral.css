@@ -41,6 +41,7 @@ body {
 .botao:hover { background-color: #ad5a82; color: #fff; }
 .container-bloco { padding-block: 50px; }
 .borda-detalhe { border-top: 8px solid #733b56; }
+.bg { background-image: url("../img/bg.png"); }
 
 
 /* Quebras */
