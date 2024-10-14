@@ -43,6 +43,10 @@ body {
 .borda-detalhe { border-top: 8px solid #733b56; }
 .bg { background-image: url("../img/bg.png"); }
 
+::-webkit-scrollbar-track { background-color: #733b56; }
+::-webkit-scrollbar { width: 6px; background: #ad5a82; }
+::-webkit-scrollbar-thumb { background: #ad5a82; }
+
 
 /* Quebras */
 .quebra   { clear:both; }
