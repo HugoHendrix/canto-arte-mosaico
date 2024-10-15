@@ -230,6 +230,13 @@ body {
 .pr-90  { padding-right: 90px; }
 .pr-100 { padding-right: 100px; }
 
+/*  Padding em Bloco */
+.ptb-5  { padding-block: 5px; }
+.ptb-10  { padding-block: 10px; }
+.ptb-15  { padding-block: 15px; }
+.ptb-30  { padding-block: 15px; }
+
+
 /* Classes de Fonte (usando rem) */
 .fs-10  { font-size: 1.0rem; } /* 10px */
 .fs-12  { font-size: 1.2rem; } /* 12px */

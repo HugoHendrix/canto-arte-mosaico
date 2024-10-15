@@ -3,7 +3,6 @@
     .menuMobileContainer { display: block; }
 
     .produto-titulo { font-size: 1.8rem; }
-    .quem-somos-container { width: 300px; position: relative; }
 
 }
 
@@ -12,18 +11,24 @@
 }
 
 @media (min-width: 301px) and (max-width: 380px) {
+    .produto-titulo { font-size: 1.8rem; }
 
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
+    .produto-titulo { font-size: 1.8rem; }
 
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
 
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .menuDesktop { display: none; }
+    .menuMobileContainer { display: block; }
+    .banner { margin-top: 90px; }
 
 }
 
